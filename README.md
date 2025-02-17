@@ -1,11 +1,17 @@
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+# Instalador Whaticket SaaS - Redis em Docker
 
 ```bash
-sudo apt install -y git && git clone https://github.com/weliton2k/instalador-whaticket-main-v.10.0.1.git && sudo chmod -R 777 instalador-whaticket-main-v.10.0.1 && cd instalador-whaticket-main-v.10.0.1 && sudo ./install_primaria
+sudo apt -y update && apt -y upgrade
 ```
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
+
 ```bash
-cd ./instalador-whaticket-main-v.10.0.1 && sudo ./install_instancia
+sudo apt install -y git && git clone https://github.com/CauanVilcson/Install-Whaticket-Saas.git instalador && sudo chmod -R 777 instalador  && cd instalador  && sudo ./install_primaria
 ```
+## Requisitos
 
+| --- | Mínimo | Recomendado |
+| --- | --- | --- |
+| Node JS | 20.x | 20.x |
+| Ubuntu | 20.x | 20.x |
+| Memória RAM | 4Gb | 8Gb |  
